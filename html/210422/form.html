@@ -7,11 +7,11 @@
     <title>Form</title>
 </head>
 <body>
-    <form action="./table&form.html" align="center">
+    <form action="/formit" align="center">
         <label for="choose">click here</label>
-        <input type="checkbox" name="" id="choose"><br>
+        <input type="checkbox" name="" id="choose"><br> 
         <label for="email">Email</label>
-        <input type="email" id="email"><br>
+        <input type="email" id="email" name="email"><br>
         <label for="pass">Password</label>
         <input type="password" name="" id="pass"><br>
         <label for="color">color</label>
@@ -22,6 +22,27 @@
         <button type="button">not submit</button>
         <input type="submit" value="submit@">
     </form>
-    
+    <form action="https://www.google.com/search?">
+        <input type="search" name="q">
+        <button>Search in google</button>
+    </form>
+    <form action="https://www.youtube.com/results?">
+        <input type="search" name="search_query">
+        <button>Search in youtube</button>
+    </form><br>
+    <form action="/nothing">
+        <label for="check">checkbox</label>
+        <input type="checkbox" id="check" name="che" value="clicked">
+        <label for="">Radio button</label>
+        <label for="a">10</label>
+        <input type="radio" name="gen" id="a" value="as">
+        <label for="b">12</label>
+        <input type="radio" name="gen"  id="b" value="bs">
+        <label for="c">14</label>
+        <input type="radio" name="gen"  id="c" value="cs">
+        <label for="d">16</label>
+        <input type="radio" name="gen"  id="d" value="ds">
+        <button>submit</button>
+    </form>
 </body>
 </html>
