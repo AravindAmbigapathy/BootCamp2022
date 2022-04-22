@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
 </head>
+
 <body>
     <form action="/formit" align="center">
         <label for="choose">click here</label>
-        <input type="checkbox" name="" id="choose"><br> 
+        <input type="checkbox" name="" id="choose"><br>
         <label for="email">Email</label>
         <input type="email" id="email" name="email"><br>
         <label for="pass">Password</label>
@@ -17,7 +19,7 @@
         <label for="color">color</label>
         <input type="color" name="" id="color"><br>
         <label for="num">Number</label>
-        <input type="number" id="num"><br>
+        <input type="number" id="num" min="10" max="20" value="15" step="0.5"><br>
         <button>Submit !!</button>
         <button type="button">not submit</button>
         <input type="submit" value="submit@">
@@ -37,12 +39,38 @@
         <label for="a">10</label>
         <input type="radio" name="gen" id="a" value="as">
         <label for="b">12</label>
-        <input type="radio" name="gen"  id="b" value="bs">
+        <input type="radio" name="gen" id="b" value="bs">
         <label for="c">14</label>
-        <input type="radio" name="gen"  id="c" value="cs">
+        <input type="radio" name="gen" id="c" value="cs">
         <label for="d">16</label>
-        <input type="radio" name="gen"  id="d" value="ds">
+        <input type="radio" name="gen" id="d" value="ds">
+        <p>
+            <select name="meal" id="meal">
+                <option value="Briyani">Briyani</option>
+                <option value="Shawarma">Shawarma</option>
+                <option value="Prawn">Prawn</option>
+            </select>
+        </p>
         <button>submit</button>
     </form>
+    <hr>
+    <form action="">
+        <label for="cheese">Like cheese</label>
+        <input type="range" name="Chee" id="cheese" min="5" value="10" max="10"><br>
+        <textarea name="tex" id="tex" cols="30" rows="5" placeholder="type here" maxlength="20"></textarea><br>
+        <button>submit</button>
+    </form>
+    <form>
+        <div>
+            <label for='username'>Username</label>
+            <input type='text' id='username' placeholder='username'>
+        </div>
+        <div>
+            <label for='password'>Password</label>
+            <input type='password' id='password' placeholder='password'>
+        </div>
+        <button>Register</button>
+    </form>
 </body>
+
 </html>

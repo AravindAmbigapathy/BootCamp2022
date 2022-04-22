@@ -1,0 +1,99 @@
+/* /* h1{
+    color:green;
+    text-align: center;
+    text-decoration: black underline overline;
+}
+h2{
+    color:rgb(17, 0, 255);
+    font-weight: 2000;
+    text-decoration: underline dotted black; 
+}
+.ptag{
+    color:white;
+    background-color:black;
+}
+button{
+    color:red;
+    background-color:pink
+}
+p{
+    text-align: right;
+    line-height: 0.5;
+}
+h3{
+    line-height: 2;
+}
+h4{
+    letter-spacing: 15px;
+}
+h5{
+    font-family: 'Gill Sans';
+    text-transform: uppercase
+} */
+/* *{
+    color: blue;
+} */
+#color{
+    background-color: skyblue;
+}
+.ptag{
+    color:white;
+    background-color:black;
+}
+li{
+    color:blue;
+}
+.done{
+    color:gray;
+}
+#clear{
+    background-color:red;
+    color:white;
+}
+header a{
+    font-size:30px;
+    color:teal;
+}
+#dislikes a{
+    font-weight:bolder;
+    color:red;
+}
+h4:hover{
+    background-color: blue;
+}
+h4:active{
+    background-color: skyblue;
+}
+#signbutton:active{
+    background-color: black;
+    color: white;
+}
+/* WRITE YOUR CODE IN HERE!!!!  */
+.square:nth-of-type(2n){
+    background-color:black;
+}
+.square{
+      background-color:red;
+}
+span{
+    color:blue;
+    
+}
+p::first-letter{
+    font-size: xxx-large;
+}
+::selection{
+    background-color: red;
+}
+ */
+ #submit {
+    color: blue;
+  }
+   
+  .btn {
+    color: pink;
+  }
+   
+  p button.btn {
+    color: purple;
+  }
