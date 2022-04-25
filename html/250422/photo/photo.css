@@ -1,0 +1,12 @@
+img{
+    width: 30%;
+    margin: 1.565%;
+}
+div{
+    height: 40%;
+}
+nav{
+    text-transform: uppercase;
+    border-bottom: 2px solid black;
+    width: 30%;
+}

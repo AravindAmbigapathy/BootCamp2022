@@ -1,0 +1,11 @@
+section{
+    width: 80%;
+    height: 800px;
+    background-image: url('https://images.hindustantimes.com/img/2021/05/25/550x309/photo-1589400554239-7c6cf8393a6e_1621963758050_1621963763626.jpg');
+   background-size: cover;
+    margin: 0 auto;
+}
+h1{
+    font-size: 100px;
+    color: white;
+}
