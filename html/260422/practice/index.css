@@ -1,0 +1,15 @@
+h1:hover{
+    transition: transform 2s;
+    transform: rotate(360deg);
+}
+h1{
+    color: white;
+    text-transform: uppercase;
+}
+div{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
