@@ -104,35 +104,114 @@ capitalize('adshk')
 //     return num*num
 // }
 
-obj = {
-    monday: 1,
-    tuesday: 2,
-    wednesday: 3,
-    thursday: 4,
-    friday: 5,
-    saturday: 6,
-    sunday: 7
-}
-function returnDay(day) {
-    let keys = Object.keys(obj)
-    if (day < 1 || day > 7) {
-        return null
-    }else{
-        return keys[day-1]
+// obj = {
+//     monday: 1,
+//     tuesday: 2,
+//     wednesday: 3,
+//     thursday: 4,
+//     friday: 5,
+//     saturday: 6,
+//     sunday: 7
+// }
+// function returnDay(day) {
+//     let keys = Object.keys(obj)
+//     if (day < 1 || day > 7) {
+//         return null
+//     }else{
+//         return keys[day-1]
+//     }
+// }
+// console.log(returnDay(7));
+
+// higher order function
+// function first(inn) {
+//     inn()
+//     inn()
+//     inn()
+//     inn()
+//     inn()
+// }
+
+// function outer() {
+//     console.log('outer func');
+// }
+// first(outer)
+
+
+//methods
+
+let math = {
+    multiply: function (x, y) {
+        return x * y
+    },
+    add: function (x,y){
+        return x+y
+    },
+    sub: function(x,y){
+        return x-y
+    },
+    divide(x,y){
+        return x/y
     }
 }
-console.log(returnDay(7));
+console.log(math.multiply(2,5));
+console.log(math.divide(25,5));
+
+let square={
+    area(len){
+        return len*len
+    },
+    perimeter(side){
+        return side*4
+    }
+}
+
+let hen={
+    name:'Helen',
+    eggCount:0,
+    layAnEgg:function (){
+        this.eggCount+=1
+        return 'EGG'
+    }
+}
+
+try{
+    HELLO.toLowerCase()
+}catch{
+    console.log('errorrr');
+}
 
 
 
 
 
+var arro=123456
+
+
+let arv=14567
+
+
+// const arvind=23456
+// let func=(num1=5,num2)=>{
+//     console.log(num1,num2);
+// }
+// func(undefined,10)
 
 
 
 
-
-
+function sum(...theArgs) {
+    return theArgs.reduce((previous, current) => {
+      return previous + current;
+    });
+  }
+  
+  console.log(sum(1, 2, 3));
+  // expected output: 6
+  
+  console.log(sum(1, 2, 3, 4));
+  // expected output: 10
+  
 
 
 
