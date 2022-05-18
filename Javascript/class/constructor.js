@@ -64,23 +64,39 @@ console.log(cars1,cars2,cars3);
 
 
 
+let runs=[46,46,62,78,63,76,1,12,35,85,65,55,24,45]
+
+// console.log(runs);
+// let sum=[]
+// let num=Math.ceil((runs.length)/3)
+// // for(let i=0; i<runs.length;i+=3){
+// //  let total=runs[i]+runs[i+1]+runs[i+2];
+// //  sum.push(total)
+// // }
+
+// // console.log(sum);
+
+// console.log(num);
+
+// for (let i = 0; i < num; i++) {
+//    let first= runs.splice(0,3)
+//     let one=first.reduce((ini,cur)=>ini+cur)
+//     sum.push(one)
+// }
+// console.log(sum);
 
 
 
+let arr=['red','pink','green','red','yellow','pink','green','orange']
 
+let result=arr.reduce((iniVal,curVal)=>{
+if (iniVal.indexOf(curVal)===-1) {
+    iniVal.push(curVal)
+}
+return iniVal
+},[])
 
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(result);
 
 
 
